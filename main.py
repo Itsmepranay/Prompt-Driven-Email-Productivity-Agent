@@ -146,7 +146,7 @@ if page == "📥 Inbox":
     # DISPLAY EMAIL TABLE
     # -------------------------
     if not st.session_state.emails:
-        st.info("Inbox is empty.")
+        st.info("Inbox is empty. Press Fetch Emails button above to get started")
     else:
         data = []
         for email in st.session_state.emails:
