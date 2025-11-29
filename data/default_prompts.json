@@ -1,0 +1,5 @@
+{
+  "categorization": "Analyze the following email and categorize it into exactly one of these categories: 'Work', 'Personal', 'Newsletter', 'Spam', 'Finance'.\n\nEmail:\nSubject: {subject}\nBody: {body}\n\nReturn only the category name.",
+  "action_extraction": "Analyze the following email and extract any actionable tasks. Return the result as a JSON object with a key 'tasks' which is a list of strings. If there are no tasks, return {'tasks': []}.\n\nEmail:\nSubject: {subject}\nBody: {body}\n\nJSON Output:",
+  "auto_reply": "You are a helpful professional assistant. Draft a polite and concise reply to the following email. Use a professional tone.\n\nOriginal Email:\nSender: {sender}\nSubject: {subject}\nBody: {body}\n\nDraft Reply:"
+}

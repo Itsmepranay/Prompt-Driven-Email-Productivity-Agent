@@ -1,0 +1,8 @@
+streamlit
+pandas
+pydantic
+google-generativeai
+python-dotenv
+google-auth-oauthlib
+google-api-python-client
+beautifulsoup4

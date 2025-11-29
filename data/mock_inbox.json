@@ -1,0 +1,107 @@
+[
+  {
+    "id": "e001",
+    "sender": "boss@company.com",
+    "subject": "Urgent: Q4 Report Due",
+    "body": "Hi Team, I need the Q4 financial report by EOD tomorrow. Please make sure to include the marketing spend analysis. Thanks.",
+    "timestamp": "2023-10-25T09:00:00"
+  },
+  {
+    "id": "e002",
+    "sender": "newsletter@techweekly.com",
+    "subject": "Tech Weekly: AI is taking over",
+    "body": "In this week's issue: New AI models released, stock market trends, and 5 tips for better coding. Click here to read more...",
+    "timestamp": "2023-10-25T10:15:00"
+  },
+  {
+    "id": "e003",
+    "sender": "recruiter@linkedin.com",
+    "subject": "New Job Opportunity at Google",
+    "body": "Hello, I came across your profile and thought you'd be a great fit for our Senior Engineer role. Are you open to a chat?",
+    "timestamp": "2023-10-24T14:30:00"
+  },
+  {
+    "id": "e004",
+    "sender": "spam@offers.com",
+    "subject": "You won a cruise!",
+    "body": "Congratulations! You've been selected for a free Caribbean cruise. Claim your ticket now!",
+    "timestamp": "2023-10-24T08:00:00"
+  },
+  {
+    "id": "e005",
+    "sender": "project-manager@company.com",
+    "subject": "Sync Meeting Agenda",
+    "body": "Hi all, for tomorrow's sync, please update your status on the Jira board. We will discuss the blocking issues in the payment gateway.",
+    "timestamp": "2023-10-25T11:00:00"
+  },
+  {
+    "id": "e006",
+    "sender": "mom@family.com",
+    "subject": "Dinner this weekend?",
+    "body": "Hey! Are you free to come over for dinner on Saturday? Dad is making his famous lasagna.",
+    "timestamp": "2023-10-23T18:45:00"
+  },
+  {
+    "id": "e007",
+    "sender": "aws-billing@amazon.com",
+    "subject": "Invoice Available",
+    "body": "Your AWS invoice for October is now available. Total amount: $24.50. Login to view details.",
+    "timestamp": "2023-11-01T06:00:00"
+  },
+  {
+    "id": "e008",
+    "sender": "client@bigcorp.com",
+    "subject": "Feedback on Design V2",
+    "body": "We reviewed the latest mocks. The color scheme looks good, but can we make the logo bigger? Also, the login button is hard to find.",
+    "timestamp": "2023-10-26T13:20:00"
+  },
+  {
+    "id": "e009",
+    "sender": "hr@company.com",
+    "subject": "Open Enrollment for Benefits",
+    "body": "It's that time of year again! Open enrollment begins next Monday. Please review the attached guide for changes to the health plan.",
+    "timestamp": "2023-10-20T09:30:00"
+  },
+  {
+    "id": "e010",
+    "sender": "dev-team@company.com",
+    "subject": "[Bug] NullPointerException in Auth Service",
+    "body": "Seeing a spike in NPEs in the auth service since the last deploy. Can someone take a look ASAP? Logs attached.",
+    "timestamp": "2023-10-26T15:00:00"
+  },
+  {
+    "id": "e011",
+    "sender": "marketing@gym.com",
+    "subject": "Black Friday Sale!",
+    "body": "Get 50% off your annual membership if you renew this week. Don't miss out!",
+    "timestamp": "2023-11-02T10:00:00"
+  },
+  {
+    "id": "e012",
+    "sender": "colleague@company.com",
+    "subject": "Coffee?",
+    "body": "Heading to the break room for coffee. Want anything?",
+    "timestamp": "2023-10-26T10:00:00"
+  },
+  {
+    "id": "e013",
+    "sender": "security@company.com",
+    "subject": "Security Training Reminder",
+    "body": "You have 3 days left to complete the mandatory security awareness training. Please login to the portal.",
+    "timestamp": "2023-11-03T09:00:00"
+  },
+  {
+    "id": "e014",
+    "sender": "jira@atlassian.com",
+    "subject": "PROJ-123: Status changed to Done",
+    "body": "User 'Alice' updated PROJ-123 (Backend API for Search) to Done.",
+    "timestamp": "2023-10-27T14:15:00"
+  },
+  {
+    "id": "e015",
+    "sender": "ceo@company.com",
+    "subject": "All Hands Meeting",
+    "body": "Join us for the quarterly All Hands meeting this Friday at 2 PM. We have some exciting announcements.",
+    "timestamp": "2023-11-01T11:00:00"
+  }
+]
