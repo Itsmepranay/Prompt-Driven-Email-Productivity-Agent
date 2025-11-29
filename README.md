@@ -1,7 +1,18 @@
-# Prompt-Driven Email Productivity Agent
+# 📧 Prompt-Driven Email Productivity Agent
+
+> **Live Demo**: [Deploy your link here]
 
 ## Overview
-This is a Streamlit-based Email Productivity Agent that uses LLMs (Large Language Models) to process emails. It features:
+A Streamlit-based Email Productivity Agent that uses LLMs (Large Language Models) to intelligently process emails. Features include:
+- **Mock Inbox Integration**: Load emails from `data/mock_inbox.json` for testing.
+- **Prompt-Driven Processing**: Categorize emails and extract action items using customizable prompts.
+- **Email Agent Chat**: Ask questions about your inbox or specific emails.
+- **Quick Draft Generator**: Auto-generate email replies directly from the inbox view.
+- **Rate-Limit Safe**: Process emails individually to avoid API rate limits.
+- **Drafts Manager**: Save and manage generated drafts in one place.
+
+## Architecture
+The agent uses a modular design with the following components:
 - **Inbox Ingestion**: Loads emails from a mock source.
 - **Prompt-Driven Processing**: Uses user-defined prompts to categorize emails and extract action items.
 - **Email Agent**: A chat interface to ask questions about your emails.
