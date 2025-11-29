@@ -1,6 +1,6 @@
 # 📧 Prompt-Driven Email Productivity Agent
 
-> **Live Demo**: [https://prompt-driven-email-agent.streamlit.app/]
+> **Live Demo**: https://prompt-driven-email-agent.streamlit.app/
 
 ## Overview
 A Streamlit-based Email Productivity Agent that uses LLMs (Large Language Models) to intelligently process emails. Features include:
