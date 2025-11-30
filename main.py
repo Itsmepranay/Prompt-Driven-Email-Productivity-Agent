@@ -2,6 +2,7 @@ from st_aggrid import AgGrid, GridOptionsBuilder, GridUpdateMode
 import streamlit as st
 import pandas as pd
 import json
+import os
 from pathlib import Path
 from backend.models import Email, PromptConfig, Draft
 from backend.storage import load_inbox, save_inbox, load_prompts, save_prompts
@@ -23,7 +24,9 @@ if "prompts" not in st.session_state:
     st.session_state.prompts = load_prompts()
 
 if "llm_service" not in st.session_state:
-    default_key = "AIzaSyCT3JVnuY-zWlLAtZY266eg3y559sgXcf4"
+
+    default_key = st.secrets.get("GEMINI_API_KEY") or os.getenv("GEMINI_API_KEY")
+
     try:
         st.session_state.llm_service = GeminiLLMService(default_key)
         st.session_state.agent = EmailAgent(st.session_state.llm_service)
